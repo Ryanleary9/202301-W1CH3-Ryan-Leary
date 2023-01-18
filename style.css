@@ -1,0 +1,83 @@
+header {
+  background-color: rgb(104, 104, 202);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  padding-top: 5px;
+  font-size: medium;
+}
+li {
+  font-size: small;
+  list-style: none;
+  margin: 100px 0;
+  display: inline;
+  justify-content: space-around;
+  padding-right: 10px;
+}
+ul li:nth-child(2) {
+  font-weight: bold;
+}
+
+section {
+  background-color: rgb(180, 118, 77);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+section a {
+  display: flex;
+  justify-content: space-around;
+  zoom: 2;
+  background-color: purple;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: hwb(34 40% 19%);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+section p {
+  background-color: rgb(180, 118, 77);
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+form input {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+form p {
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+}
+
+form {
+  border-bottom: 2px solid black;
+}
+
+article h2 {
+  text-align: right;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  float: ;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 120px;
+  margin-top: 100px;
+  background-color: rgb(99, 99, 209);
+}
